@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Đăng ký tour du lịch An Giang</title>
+</head>
+<body>
+
+<form>
+	<fieldset style="width: 55%; margin:auto;">
+		<h2>ĐĂNG KÝ TOUR DU LỊCH AN GIANG</h2>
+		<h3>Khám phá miền Tây – Núi non & sông nước</h3>
+
+		<table>
+			<tr>
+				<td><label for="hoten">Họ và tên:</label></td>
+				<td><input id="hoten" type="text" required></td>
+			</tr>
+
+			<tr>
+				<td><label for="email">Email:</label></td>
+				<td><input id="email" type="email" required></td>
+			</tr>
+
+			<tr>
+				<td><label for="sdt">Số điện thoại:</label></td>
+				<td><input id="sdt" type="tel" required></td>
+			</tr>
+
+			<tr>
+				<td><label for="ngaydi">Ngày khởi hành:</label></td>
+				<td><input id="ngaydi" type="date" required></td>
+			</tr>
+
+			<tr>
+				<td><label>Giới tính:</label></td>
+				<td>
+					<input type="radio" name="gioitinh" value="nam"> Nam
+					<input type="radio" name="gioitinh" value="nu"> Nữ
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="tour">Chọn tour:</label></td>
+				<td>
+					<select id="tour">
+						<option>Tour 1 ngày (Châu Đốc – Miếu Bà – Núi Sam)</option>
+						<option>Tour 2 ngày 1 đêm (Núi Cấm – Trà Sư)</option>
+						<option>Tour 3 ngày 2 đêm (Long Xuyên – Núi Cấm – Trà Sư)</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><label>Dịch vụ kèm theo:</label></td>
+				<td>
+					<input type="checkbox"> Khách sạn  
+					<input type="checkbox"> Ăn uống  
+					<input type="checkbox"> Hướng dẫn viên
+				</td>
+			</tr>
+
+			<tr>
+				<td><label for="ghichu">Ghi chú:</label></td>
+				<td>
+					<textarea id="ghichu" rows="4" cols="25"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<button type="submit" style="color: blue; font-weight: bold;">
+						Gửi đăng ký
+					</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<a href="index.html">Về trang chủ</a>
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+</form>
+
+</body>
+</html>
