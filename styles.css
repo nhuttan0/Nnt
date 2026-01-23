@@ -1,0 +1,145 @@
+/* ===== RESET NHẸ ===== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f8fbff;
+    color: #333;
+}
+
+/* ===== BANNER ===== */
+.banner {
+    background: linear-gradient(
+        rgba(255,255,255,0.6),
+        rgba(255,255,255,0.6)
+    ),
+    url("") no-repeat center center;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    color: #1f5f4a;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* ===== SLOGAN ===== */
+.slogan {
+    background-color: #e9f7f2;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 0 3rem;
+}
+
+.block_3 {
+    width: 33.3333%;
+    padding: 1rem;
+}
+
+/* hover slogan */
+#b3a:hover,
+#b3b:hover,
+#b3c:hover {
+    color: #1e90ff;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* ===== TABLE LAYOUT ===== */
+table {
+    width: 90%;
+    margin: 2rem auto;
+    border-spacing: 2rem;
+}
+
+.cell_text {
+    width: 50%;
+    text-align: justify;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.cell_img {
+    width: 50%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* ===== IMAGE TRUNG TÂM ===== */
+.img_tv {
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* ===== LINK ===== */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #e9f7f2;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer li {
+    margin-bottom: 0.5rem;
+}
+
+/* ===== FORM ===== */
+form fieldset {
+    background-color: #ffffff;
+    border: 2px solid #cceee3;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+input, select, textarea {
+    width: 95%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
