@@ -42,8 +42,8 @@ body {
 }
 
 .block_3 {
-    width: 33.3333%;
-    padding: 1rem;
+    flex: 0 0 auto;
+    width: 33.33333%;
 }
 
 /* hover slogan */
